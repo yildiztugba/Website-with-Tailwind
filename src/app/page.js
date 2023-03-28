@@ -32,7 +32,7 @@ export default function Home() {
           <h3 className="text-2xl py-2">Front-end Developer</h3>
           <p className="text-md py-5 leading-8 text-gray-800">I have a bachelor's degree in Teaching Computer Education. While I'm refreshing my knowledge and learning more things, I will put all my studies in here.</p>
         </div>
-        <div>
+        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 ">
           <AiFillTwitterCircle />
           <AiFillLinkedin />
           <AiFillYoutube />
