@@ -12,7 +12,7 @@ export default function Home() {
       
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl">developedbyyildiz</h1>
+          <h1 className="text-xl font-burtons">developedbyyildiz</h1>
           <ul>
             <li>
               <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
