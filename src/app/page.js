@@ -22,6 +22,14 @@ export default function Home() {
             </li>
           </ul>
         </nav>
+        <div>
+          <h2>Tugba Yildiz</h2>
+          <h3>Front-end Developer</h3>
+          <p>I have a bachelor's degree in Teaching Computer Education. While I'm refreshing my knowledge and learning more things, I will put all my studies in here.</p>
+        </div>
+        <div>
+
+        </div>
       </section>
     </main>
     </div>
