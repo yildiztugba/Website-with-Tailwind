@@ -33,7 +33,9 @@ export default function Home() {
           <p>I have a bachelor's degree in Teaching Computer Education. While I'm refreshing my knowledge and learning more things, I will put all my studies in here.</p>
         </div>
         <div>
-
+          <AiFillTwitterCircle />
+          <AiFillLinkedin />
+          <AiFillYoutube />
         </div>
       </section>
     </main>
