@@ -8,10 +8,10 @@ export default function Home() {
       <Head>
         <title>Tugba yildiz Portfolio</title> 
       </Head>
-    <main>
+    <main className="bg-white px-10 ">
       
       <section className="min-h-screen">
-        <nav>
+        <nav className="py-10 mb-12 flex justify-between">
           <h1>developedbyyildiz</h1>
           <ul>
             <li>
