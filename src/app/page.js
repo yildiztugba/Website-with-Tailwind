@@ -21,7 +21,7 @@ export default function Home() {
       <Head>
         <title>Tugba yildiz Portfolio</title> 
       </Head>
-    <main className="bg-white px-10 ">
+    <main className="bg-white px-10 md:px-20 lg:px-40">
       
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
@@ -36,16 +36,16 @@ export default function Home() {
           </ul>
         </nav>
         <div className="text-center p-10">
-          <h2 className="text-5xl py-2 text-teal-600 font-medium ">Tugba Yildiz</h2>
-          <h3 className="text-2xl py-2">Front-end Developer</h3>
-          <p className="text-md py-5 leading-8 text-gray-800">I have a bachelor's degree in Teaching Computer Education. While I'm refreshing my knowledge and learning more things, I will put all my studies in here.</p>
+          <h2 className="text-5xl py-2 text-teal-600 font-medium  md:text-6xl">Tugba Yildiz</h2>
+          <h3 className="text-2xl py-2 md:text-3xl">Front-end Developer</h3>
+          <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">I have a bachelor's degree in Teaching Computer Education. While I'm refreshing my knowledge and learning more things, I will put all my studies in here.</p>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 ">
           <AiFillTwitterCircle />
           <AiFillLinkedin />
           <AiFillYoutube />
         </div>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
           <Image src={devIcon}  layout="fill" objectFit="cover"/>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function Home() {
           <span className="text-teal-500"> HTML, CSS, React, Javascript</span> </p> 
         <p className="text-md py-2 leading-8 text-gray-80"> Now I'm looking for a job as a front-end developer </p> 
         </div>
-        <div>
+        <div className="lg:flex gap-10">
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <Image src={HTML} width={100} height={100} />
             <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
@@ -91,15 +91,23 @@ export default function Home() {
           occaecat cupidatat <span className="text-teal-500"> Excepteur </span>non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.</p>
       </div>
+     <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+        <div>
+        <div className="basis-1 flex-1"><Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+      </div> 
+        <div >
+        <div className="basis-1 flex-1"><Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+      </div> 
       <div>
-        <div><Image src={web1} /></div>
-      </div>
+        <div className="basis-1 flex-1"><Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+      </div> 
         <div>
-        <div><Image src={web2} /></div>
+        <div className="basis-1 flex-1"><Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
       </div>
-        <div>
-        <div><Image src={web3} /></div>
+       <div>
+        <div className="basis-1 flex-1"><Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
       </div>
+     </div>
     </section>
 
 
