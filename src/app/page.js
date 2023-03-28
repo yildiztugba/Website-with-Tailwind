@@ -8,7 +8,13 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import devIcon from "../../public/icon.png"
-
+import HTML from "../../public/html-5.png"
+import CSS from "../../public/css-3.png"
+import Javascript from "../../public/java-script.png"
+import React from "../../public/react.png"
+import web1 from "../../public/web1.png"
+import web2 from "../../public/web2.png"
+import web3 from "../../public/web3.png"
 export default function Home() {
   return (
     <div>
@@ -43,6 +49,60 @@ export default function Home() {
           <Image src={devIcon}  layout="fill" objectFit="cover"/>
         </div>
       </section>
+
+      <section>
+        <div>
+          <h3 className="text-3xl py-1"> Services I offer</h3>
+          <p className="text-md py-2 leading-8 text-gray-80">Since the beginning of my journey as a developer, I had an experience in 
+          <span className="text-teal-500"> HTML, CSS, React, Javascript</span> </p> 
+        <p className="text-md py-2 leading-8 text-gray-80"> Now I'm looking for a job as a front-end developer </p> 
+        </div>
+        <div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <Image src={HTML} width={100} height={100} />
+            <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <Image src={CSS} width={100} height={100} />
+            <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <Image src={React} width={100} height={100} />
+            <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <Image src={Javascript} width={100} height={100} />
+        <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
+          </div>
+        </div>
+
+      </section>
+
+
+    <section>
+      <div>
+        <h3 className="text-3xl py-1">Portfolio</h3>
+        <p className="text-md py-2 leading-8 text-gray-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna 
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+        <span className="text-teal-500"> ullamco laboris</span> nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat <span className="text-teal-500"> Excepteur </span>non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+      </div>
+      <div>
+        <div><Image src={web1} /></div>
+      </div>
+        <div>
+        <div><Image src={web2} /></div>
+      </div>
+        <div>
+        <div><Image src={web3} /></div>
+      </div>
+    </section>
+
+
     </main>
     </div>
   )
