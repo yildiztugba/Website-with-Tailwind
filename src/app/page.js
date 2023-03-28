@@ -27,10 +27,10 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div>
-          <h2>Tugba Yildiz</h2>
-          <h3>Front-end Developer</h3>
-          <p>I have a bachelor's degree in Teaching Computer Education. While I'm refreshing my knowledge and learning more things, I will put all my studies in here.</p>
+        <div className="text-center p-10">
+          <h2 className="text-5xl py-2 text-teal-600 font-medium ">Tugba Yildiz</h2>
+          <h3 className="text-2xl py-2">Front-end Developer</h3>
+          <p className="text-md py-5 leading-8 text-gray-800">I have a bachelor's degree in Teaching Computer Education. While I'm refreshing my knowledge and learning more things, I will put all my studies in here.</p>
         </div>
         <div>
           <AiFillTwitterCircle />
