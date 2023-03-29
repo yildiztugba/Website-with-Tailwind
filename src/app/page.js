@@ -46,7 +46,7 @@ export default function Home() {
           <AiFillYoutube />
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-          <Image src={devIcon}  layout="fill" objectFit="cover"/>
+          <Image src={devIcon} alt="profile" layout="fill" objectFit="cover"/>
         </div>
       </section>
 
@@ -59,19 +59,19 @@ export default function Home() {
         </div>
         <div className="lg:flex gap-10">
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
-            <Image src={HTML} width={100} height={100} />
+            <Image src={HTML} alt="html"width={100} height={100} />
             <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
-            <Image src={CSS} width={100} height={100} />
+            <Image src={CSS} alt="css" width={100} height={100} />
             <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
-            <Image src={React} width={100} height={100} />
+            <Image src={React} alt="react" width={100} height={100} />
             <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
-            <Image src={Javascript} width={100} height={100} />
+            <Image src={Javascript} alt="javascript" width={100} height={100} />
         <h3 className="text-lg font-medium pt-8 pb-2">HTML</h3>
           </div>
         </div>
