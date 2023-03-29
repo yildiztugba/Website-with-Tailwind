@@ -93,19 +93,19 @@ export default function Home() {
       </div>
      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div>
-        <div className="basis-1 flex-1"><Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+        <div className="basis-1 flex-1"><Image src={web1} alt="project1" className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
       </div> 
         <div >
-        <div className="basis-1 flex-1"><Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+        <div className="basis-1 flex-1"><Image src={web2} alt="project2" className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
       </div> 
       <div>
-        <div className="basis-1 flex-1"><Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+        <div className="basis-1 flex-1"><Image src={web1}  alt="project3" className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
       </div> 
         <div>
-        <div className="basis-1 flex-1"><Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+        <div className="basis-1 flex-1"><Image src={web3} alt="project4" className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
       </div>
        <div>
-        <div className="basis-1 flex-1"><Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
+        <div className="basis-1 flex-1"><Image src={web3} alt="project5" className="rounded-lg object-cover" width={'100%'} height={'100'} layout="responsive"/></div>
       </div>
      </div>
     </section>
